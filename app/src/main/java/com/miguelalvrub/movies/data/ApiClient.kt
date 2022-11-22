@@ -39,6 +39,4 @@ class ApiClient {
         val call = apiServices.getMovies(movieId).execute()
         return call.body()
     }
-
-
 }
